@@ -25,6 +25,10 @@
 		ED9554AF180AB935002B9CD5 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554AE180AB935002B9CD5 /* CellView.m */; };
 		ED9554B3180AC80B002B9CD5 /* woodenTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */; };
 		ED9554B5180ACA4D002B9CD5 /* bois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554B4180ACA4D002B9CD5 /* bois.jpg */; };
+		ED9554BF180AD987002B9CD5 /* qc.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9554BE180AD987002B9CD5 /* qc.png */; };
+		ED9554C1180ADA32002B9CD5 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9554C0180ADA32002B9CD5 /* wood.png */; };
+		ED9554C3180ADA5E002B9CD5 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554C2180ADA5E002B9CD5 /* wood.jpg */; };
+		ED9554C5180ADB17002B9CD5 /* bois.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9554C4180ADB17002B9CD5 /* bois.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		ED9554AE180AB935002B9CD5 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
 		ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodenTile.jpg; sourceTree = "<group>"; };
 		ED9554B4180ACA4D002B9CD5 /* bois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bois.jpg; sourceTree = "<group>"; };
+		ED9554BE180AD987002B9CD5 /* qc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qc.png; sourceTree = "<group>"; };
+		ED9554C0180ADA32002B9CD5 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		ED9554C2180ADA5E002B9CD5 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		ED9554C4180ADB17002B9CD5 /* bois.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bois.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +139,13 @@
 				ED9554AB180AB4B3002B9CD5 /* gridView.m */,
 				ED9554AD180AB935002B9CD5 /* CellView.h */,
 				ED9554AE180AB935002B9CD5 /* CellView.m */,
+				ED9554C2180ADA5E002B9CD5 /* wood.jpg */,
+				ED9554C0180ADA32002B9CD5 /* wood.png */,
 				ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */,
 				ED95548D180AB448002B9CD5 /* Images.xcassets */,
 				ED9554B4180ACA4D002B9CD5 /* bois.jpg */,
+				ED9554C4180ADB17002B9CD5 /* bois.png */,
+				ED9554BE180AD987002B9CD5 /* qc.png */,
 				ED95547C180AB448002B9CD5 /* Supporting Files */,
 			);
 			path = MinimalUIImageLoad;
@@ -246,8 +258,12 @@
 			files = (
 				ED95548E180AB448002B9CD5 /* Images.xcassets in Resources */,
 				ED9554B5180ACA4D002B9CD5 /* bois.jpg in Resources */,
+				ED9554C1180ADA32002B9CD5 /* wood.png in Resources */,
 				ED955480180AB448002B9CD5 /* InfoPlist.strings in Resources */,
 				ED955489180AB448002B9CD5 /* Main.storyboard in Resources */,
+				ED9554C5180ADB17002B9CD5 /* bois.png in Resources */,
+				ED9554C3180ADA5E002B9CD5 /* wood.jpg in Resources */,
+				ED9554BF180AD987002B9CD5 /* qc.png in Resources */,
 				ED9554B3180AC80B002B9CD5 /* woodenTile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +498,7 @@
 				ED9554A6180AB448002B9CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED9554A7180AB448002B9CD5 /* Build configuration list for PBXNativeTarget "MinimalUIImageLoadTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				ED9554A9180AB448002B9CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
