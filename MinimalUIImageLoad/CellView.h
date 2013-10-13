@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CellView.h
 //  MinimalUIImageLoad
 //
 //  Created by Antoine on 13/10/13.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-{
-    UILongPressGestureRecognizer * longpress;
-}
+@interface CellView : UIView
+@property (nonatomic) bool selected;
+@property UIImageView * imageView;
+-(void) moveTo:(CGPoint)p;
+
 @end

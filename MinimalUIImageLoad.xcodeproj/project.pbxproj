@@ -21,6 +21,9 @@
 		ED955497180AB448002B9CD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED955479180AB448002B9CD5 /* UIKit.framework */; };
 		ED95549F180AB448002B9CD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED95549D180AB448002B9CD5 /* InfoPlist.strings */; };
 		ED9554A1180AB448002B9CD5 /* MinimalUIImageLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554A0180AB448002B9CD5 /* MinimalUIImageLoadTests.m */; };
+		ED9554AC180AB4B3002B9CD5 /* gridView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554AB180AB4B3002B9CD5 /* gridView.m */; };
+		ED9554AF180AB935002B9CD5 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554AE180AB935002B9CD5 /* CellView.m */; };
+		ED9554B1180ABC06002B9CD5 /* woodenTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554B0180ABC06002B9CD5 /* woodenTile.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		ED95549C180AB448002B9CD5 /* MinimalUIImageLoadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinimalUIImageLoadTests-Info.plist"; sourceTree = "<group>"; };
 		ED95549E180AB448002B9CD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED9554A0180AB448002B9CD5 /* MinimalUIImageLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimalUIImageLoadTests.m; sourceTree = "<group>"; };
+		ED9554AA180AB4B3002B9CD5 /* gridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridView.h; sourceTree = "<group>"; };
+		ED9554AB180AB4B3002B9CD5 /* gridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridView.m; sourceTree = "<group>"; };
+		ED9554AD180AB935002B9CD5 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		ED9554AE180AB935002B9CD5 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		ED9554B0180ABC06002B9CD5 /* woodenTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = woodenTile.jpg; path = ../../../Downloads/woodenTile.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 				ED955487180AB448002B9CD5 /* Main.storyboard */,
 				ED95548A180AB448002B9CD5 /* ViewController.h */,
 				ED95548B180AB448002B9CD5 /* ViewController.m */,
+				ED9554AA180AB4B3002B9CD5 /* gridView.h */,
+				ED9554AB180AB4B3002B9CD5 /* gridView.m */,
+				ED9554AD180AB935002B9CD5 /* CellView.h */,
+				ED9554AE180AB935002B9CD5 /* CellView.m */,
+				ED9554B0180ABC06002B9CD5 /* woodenTile.jpg */,
 				ED95548D180AB448002B9CD5 /* Images.xcassets */,
 				ED95547C180AB448002B9CD5 /* Supporting Files */,
 			);
@@ -231,6 +244,7 @@
 				ED95548E180AB448002B9CD5 /* Images.xcassets in Resources */,
 				ED955480180AB448002B9CD5 /* InfoPlist.strings in Resources */,
 				ED955489180AB448002B9CD5 /* Main.storyboard in Resources */,
+				ED9554B1180ABC06002B9CD5 /* woodenTile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +265,8 @@
 			files = (
 				ED95548C180AB448002B9CD5 /* ViewController.m in Sources */,
 				ED955486180AB448002B9CD5 /* AppDelegate.m in Sources */,
+				ED9554AF180AB935002B9CD5 /* CellView.m in Sources */,
+				ED9554AC180AB4B3002B9CD5 /* gridView.m in Sources */,
 				ED955482180AB448002B9CD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
