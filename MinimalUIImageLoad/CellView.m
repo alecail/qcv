@@ -32,7 +32,7 @@
 
     
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-            UIImage * img = [UIImage imageNamed:@"woodenTile.jpg"];
+            UIImage * img = [UIImage imageNamed:@"bois.jpg"];
             
             // Make a trivial (1x1) graphics context, and draw the image into it
             UIGraphicsBeginImageContext(CGSizeMake(1,1));

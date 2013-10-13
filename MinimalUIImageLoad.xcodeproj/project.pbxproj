@@ -24,6 +24,7 @@
 		ED9554AC180AB4B3002B9CD5 /* gridView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554AB180AB4B3002B9CD5 /* gridView.m */; };
 		ED9554AF180AB935002B9CD5 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9554AE180AB935002B9CD5 /* CellView.m */; };
 		ED9554B3180AC80B002B9CD5 /* woodenTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */; };
+		ED9554B5180ACA4D002B9CD5 /* bois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED9554B4180ACA4D002B9CD5 /* bois.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		ED9554AD180AB935002B9CD5 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
 		ED9554AE180AB935002B9CD5 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
 		ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodenTile.jpg; sourceTree = "<group>"; };
+		ED9554B4180ACA4D002B9CD5 /* bois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bois.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				ED9554AE180AB935002B9CD5 /* CellView.m */,
 				ED9554B2180AC80B002B9CD5 /* woodenTile.jpg */,
 				ED95548D180AB448002B9CD5 /* Images.xcassets */,
+				ED9554B4180ACA4D002B9CD5 /* bois.jpg */,
 				ED95547C180AB448002B9CD5 /* Supporting Files */,
 			);
 			path = MinimalUIImageLoad;
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED95548E180AB448002B9CD5 /* Images.xcassets in Resources */,
+				ED9554B5180ACA4D002B9CD5 /* bois.jpg in Resources */,
 				ED955480180AB448002B9CD5 /* InfoPlist.strings in Resources */,
 				ED955489180AB448002B9CD5 /* Main.storyboard in Resources */,
 				ED9554B3180AC80B002B9CD5 /* woodenTile.jpg in Resources */,
